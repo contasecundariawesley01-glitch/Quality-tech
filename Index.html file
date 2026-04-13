@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Tech - Assistência Técnica Especializada</title>
+    <style>
+        :root { --primary: #0056b3; --secondary: #28a745; --dark: #1a1a1a; --light: #f8f9fa; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: var(--light); color: #333; line-height: 1.6; }
+        
+        header { background: var(--dark); color: white; padding: 40px 20px; text-align: center; border-bottom: 4px solid var(--primary); }
+        .hero h1 { margin: 0; font-size: 2.5em; letter-spacing: 2px; }
+        .hero p { opacity: 0.8; font-size: 1.1em; }
+
+        .container { max-width: 900px; margin: 20px auto; padding: 20px; }
+        
+        .section-title { border-left: 5px solid var(--primary); padding-left: 15px; margin: 30px 0 20px; color: var(--dark); }
+
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #eee; }
+        
+        .plans-container { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }
+        .plan-card { flex: 1; min-width: 280px; background: #fff; border: 2px solid var(--primary); border-radius: 15px; padding: 25px; text-align: center; transition: transform 0.3s; }
+        .plan-card:hover { transform: translateY(-5px); }
+        .plan-card h3 { color: var(--primary); margin-top: 0; }
+        .price { font-size: 1.8em; font-weight: bold; margin: 15px 0; color: var(--dark); }
+
+        .btn-whatsapp { display: block; background: var(--secondary); color: white; text-align: center; padding: 18px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2em; margin-top: 40px; box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3); }
+        .btn-whatsapp:hover { background: #218838; }
+
+        footer { text-align: center; padding: 40px; color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>QUALITY TECH</h1>
+    <p>Tecnologia com Confiança e Precisão</p>
+</header>
+
+<div class="container">
+    
+    <h2 class="section-title">Nossa Especialidade</h2>
+    <div class="services-grid">
+        <div class="card">
+            <h3>💻 Notebooks & PCs</h3>
+            <p>Reparos em placa-mãe, limpeza interna, troca de pasta térmica e upgrades de performance (SSD/RAM).</p>
+        </div>
+        <div class="card">
+            <h3>📱 Smartphones</h3>
+            <p>Troca de telas, baterias, conectores de carga e recuperação de software.</p>
+        </div>
+        <div class="card">
+            <h3>🎮 Consoles</h3>
+            <p>Manutenção completa em Xbox, PlayStation e portáteis.</p>
+        </div>
+    </div>
+
+    <h2 class="section-title">Planos de Assinatura Quality Tech</h2>
+    <p>Diga adeus aos custos inesperados. Tenha suporte técnico sempre à disposição.</p>
+    
+    <div class="plans-container">
+        <div class="plan-card">
+            <h3>Plano Residencial</h3>
+            <div class="price">R$ 49,90<small>/mês</small></div>
+            <p>• Suporte remoto ilimitado<br>
+               • 1 Limpeza preventiva anual<br>
+               • Mão de obra inclusa em reparos</p>
+        </div>
+
+        <div class="plan-card" style="background: #eef6ff;">
+            <h3>Plano Business</h3>
+            <div class="price">R$ 99,90<small>/mês</small></div>
+            <p>• Prioridade no atendimento<br>
+               • Visita técnica mensal<br>
+               • Consultoria para upgrades e rede</p>
+        </div>
+    </div>
+
+    <a href="https://wa.me/5511997658127" target="_blank" class="btn-whatsapp">
+        Solicitar Orçamento via WhatsApp
+    </a>
+
+</div>
+
+<footer>
+    &copy; 2026 Quality Tech - Assistência Técnica Profissional
+</footer>
+
+</body>
+</html>
